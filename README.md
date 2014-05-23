@@ -1,4 +1,3 @@
-cakeblog
-========
+# cakeblog
 
 CakePHP sample blog application
