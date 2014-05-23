@@ -1,3 +1,5 @@
+<?php
+
 class PostsController extends AppController {
     public $helpers = array('Html', 'Form');
     
@@ -5,3 +7,5 @@ class PostsController extends AppController {
         $this->set('posts', $this->Post->find('all'));
     }
 }
+
+?>
